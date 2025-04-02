@@ -26,6 +26,7 @@
 		3F900F892D9D294D0065F1D5 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F900F7C2D9D294D0065F1D5 /* apple.png */; };
 		3F900F8D2D9D31370065F1D5 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F900F8C2D9D31370065F1D5 /* FruitCardView.swift */; };
 		3F900F8F2D9D3CE10065F1D5 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F900F8E2D9D3CE10065F1D5 /* StartButtonView.swift */; };
+		3F97E31D2D9D5103004E8ACA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97E31C2D9D5103004E8ACA /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		3F900F7C2D9D294D0065F1D5 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
 		3F900F8C2D9D31370065F1D5 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		3F900F8E2D9D3CE10065F1D5 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		3F97E31C2D9D5103004E8ACA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			children = (
 				3F900F622D9D23B30065F1D5 /* FructusApp.swift */,
 				3F900F642D9D23B30065F1D5 /* ContentView.swift */,
+				3F97E31C2D9D5103004E8ACA /* OnboardingView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				3F900F8D2D9D31370065F1D5 /* FruitCardView.swift in Sources */,
 				3F900F8F2D9D3CE10065F1D5 /* StartButtonView.swift in Sources */,
 				3F900F652D9D23B30065F1D5 /* ContentView.swift in Sources */,
+				3F97E31D2D9D5103004E8ACA /* OnboardingView.swift in Sources */,
 				3F900F632D9D23B30065F1D5 /* FructusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
