@@ -31,6 +31,7 @@
 		3F97E3232D9D5D2F004E8ACA /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97E3222D9D5D2F004E8ACA /* FruitData.swift */; };
 		3F97E3252D9D8F0D004E8ACA /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97E3242D9D8F0D004E8ACA /* FruitRowView.swift */; };
 		3FB2CD972D9DA36D004EBA5D /* FruitDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB2CD962D9DA36D004EBA5D /* FruitDetailsView.swift */; };
+		3FB2CD992D9DAEC2004EBA5D /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB2CD982D9DAEC2004EBA5D /* FruitHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		3F97E3222D9D5D2F004E8ACA /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		3F97E3242D9D8F0D004E8ACA /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		3FB2CD962D9DA36D004EBA5D /* FruitDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailsView.swift; sourceTree = "<group>"; };
+		3FB2CD982D9DAEC2004EBA5D /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				3F900F8C2D9D31370065F1D5 /* FruitCardView.swift */,
 				3F900F8E2D9D3CE10065F1D5 /* StartButtonView.swift */,
 				3F97E3242D9D8F0D004E8ACA /* FruitRowView.swift */,
+				3FB2CD982D9DAEC2004EBA5D /* FruitHeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				3F900F8F2D9D3CE10065F1D5 /* StartButtonView.swift in Sources */,
 				3FB2CD972D9DA36D004EBA5D /* FruitDetailsView.swift in Sources */,
 				3F900F652D9D23B30065F1D5 /* ContentView.swift in Sources */,
+				3FB2CD992D9DAEC2004EBA5D /* FruitHeaderView.swift in Sources */,
 				3F97E31D2D9D5103004E8ACA /* OnboardingView.swift in Sources */,
 				3F97E3202D9D5B6E004E8ACA /* FruitModel.swift in Sources */,
 				3F900F632D9D23B30065F1D5 /* FructusApp.swift in Sources */,
