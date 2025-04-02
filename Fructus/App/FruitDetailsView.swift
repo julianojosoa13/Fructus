@@ -14,6 +14,7 @@ struct FruitDetailsView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(alignment: .center, spacing: 20) {
                     // HEADER
+                    FruitHeaderView(fruit: fruit)
                     
                     VStack(alignment: .leading,spacing: 20) {
                         // TITLE
@@ -52,5 +53,5 @@ struct FruitDetailsView: View {
 }
 
 #Preview {
-    FruitDetailsView(fruit:  fruitsData[0])
+    FruitDetailsView(fruit:  fruitsData[2])
 }
