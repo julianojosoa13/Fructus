@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct FruitDetailsView: View {
+    var fruit: Fruit
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(fruit.title)
     }
 }
 
 #Preview {
-    FruitDetailsView()
+    FruitDetailsView(fruit:  fruitsData[0])
 }
