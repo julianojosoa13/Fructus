@@ -27,7 +27,7 @@ struct FruitRowView: View {
                     .font(.title2)
                     .fontWeight(.bold)
                 Text(fruit.headline)
-                    .font(.caption2)
+                    .font(Font.caption2)
                     .foregroundColor(.secondary)
             } //: VStack
         } //: HStack

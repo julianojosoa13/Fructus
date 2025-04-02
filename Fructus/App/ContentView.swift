@@ -13,8 +13,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(fruits) { fruit in
+                ForEach(fruits.shuffled()) { fruit in
                     FruitRowView(fruit: fruit)
+                        .padding(.vertical, 4)
                 }
             }
         } //: NAVIGATION
