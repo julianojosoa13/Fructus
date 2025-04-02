@@ -28,5 +28,5 @@ struct OnboardingView: View {
 
 // MARK: - PREVIEW
 #Preview {
-    OnboardingView()
+    OnboardingView(fruits: fruitsData)
 }
