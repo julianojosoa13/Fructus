@@ -47,7 +47,10 @@ struct FruitDetailsView: View {
                     .padding(.horizontal, 20)
                     .frame(maxWidth: 640, alignment: .center)
                 } //: VStack
+                .navigationBarTitle(fruit.title, displayMode:.inline)
+                .navigationBarHidden(true)
             } //: SCROLL
+            .edgesIgnoringSafeArea(.top)
         } //: NAVIGATION
     }
 }
